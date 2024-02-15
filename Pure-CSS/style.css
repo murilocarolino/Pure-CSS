@@ -1,22 +1,12 @@
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 140%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    letter-spacing: 1px;
-}
-
 body {
-    background-image: url(./background.svg);
+    background-image: url(./backgroundText.png);
     z-index: 5;
     background-color: #2E1012;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.pure-g {
+.pure-g{
     background-size: cover;
     height: 100vh;
 }
@@ -25,7 +15,7 @@ body {
     height: 100vh;
 }
 
-.pure-img {
+.bombom {
     margin-top: 18vw;
     margin-left: 8vw;
 }
@@ -36,7 +26,7 @@ body {
     flex-direction: column;
 }
 
-.foto img {
+.foto img{
     width: 269px;
     height: 116px;
     margin-left: 20vh;
@@ -50,20 +40,11 @@ body {
     font-size: 32px;
     align-items: center;
     margin: 40px;
-    padding-top: 150px;
 }
 
-.pure-img {
+.ferreiro {
     margin-top: 18vw;
     margin-left: 3vw;
-}
-
-.pure-botton {
-    width: 158px;
-    height: 50px;
-    z-index: 1;
-    margin-top: -150px;
-    margin-left: 45%;
-    background-color: #2E1012;
-    font-family: "Indie Flower", cursive;
+    width: 30px;
+    height: 30px;
 }
